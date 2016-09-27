@@ -78,6 +78,41 @@
 
 	}
 
+
+	.aboutme2 {
+
+		background-color: #ffffff;
+		width: 25%;
+		border-color: #cccccc;
+		border-width: 1px;
+		border-style: solid;
+		padding-bottom: 30px;
+		padding-left: 50px;
+		padding-right: 20px;
+		height: 150%;
+		position: relative;
+		margin-left: 150px;
+		margin-top: 30px;
+		float: left;
+
+	}
+
+    input[type=submit] {
+    padding:5px; 
+    background-color: #4aaaa5; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+
+input[type=text] {
+    color: #cccccc;
+
+}
+
+
+
     p {
 
     	text-align: justify;
@@ -105,12 +140,47 @@
 		margin-left: 150px;
 
 	}
+	.sidebar2 {
 
-	#github {
-
-	 
+		float: left;
+		margin-left: 250px;
 
 	}
+
+	
+.images {
+    position: relative;
+}
+.game {
+    z-index: 1;
+}
+
+#gametext {
+    background-color: #4aaaaf;
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    bottom: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.trivia {
+    z-index: 2;
+}
+
+.triviatext {
+    background-color: #4aaaaf;
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    bottom: 10px;
+    text-align: center;
+    z-index: 2;
+}
 
 
 
