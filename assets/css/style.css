@@ -1,0 +1,113 @@
+    body {
+       
+        background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png");
+        font-family: Helvetica;
+        color: #777777;
+        background-color: #ffffff;
+        border-color: #dddddd;
+    }
+
+
+    header {
+    	background-color: #ffffff;
+    	width: 100%
+    	height:100%;
+    }
+
+    h1 {
+
+    	background-color:#4aaaa5;
+    	font-family: Georgia;
+    	color: #ffffff;
+    	padding: 20px 20px 20px 20px;
+    	width: 15%;
+    	text-align: center;
+    	border-color: #cccccc;
+		position: relative;
+		margin-left: 50px;
+
+    }
+
+    .tabs {
+
+    	float: right;
+    	position: relative;
+    	margin-top: 10px;
+    }
+
+    #about {
+		margin-right: 30px;
+
+    }
+
+    h2 {
+		color: #4aaaa5;
+		font-family: Georgia;
+
+    }
+
+    img {
+
+    	float: left;
+    	padding-right: 10px;
+    }
+
+	.aboutme {
+
+		background-color: #ffffff;
+		width: 40%;
+		border-color: #cccccc;
+		border-width: 1px;
+		border-style: solid;
+		padding-bottom: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+		height: 150%;
+		position: relative;
+		margin-left: 50px;
+
+	}
+
+    p {
+
+    	text-align: justify;
+
+    }
+
+	#connect {
+
+		background-color: #ffffff;
+		width: 10%;
+		padding: 20px 10px 30px 10px; 
+		float: right;
+		color: #4aaaa5;
+		border-color: #cccccc;
+		border-width: 1px;
+		border-style: solid;
+		text-align: center;
+		font-family: Georgia;
+		margin-top: 20px;
+		position: relative;
+
+	}
+
+	#github {
+
+	 align-content: center;
+
+	}
+
+
+
+    footer {
+
+    	background-color: #666666;
+    	color: #ffffff;
+    	text-align: center;
+    	padding-top: 40px;
+    	padding-bottom: 40px;
+    	margin-bottom: 10px;
+    	clear: both;
+
+
+    }
