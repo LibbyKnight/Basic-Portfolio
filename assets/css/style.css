@@ -48,10 +48,16 @@
 
     img {
 
-    	float: left;
+    
     	padding-right: 10px;
     }
 
+
+	#image {
+	
+	float: left;
+	
+	}
 	.aboutme {
 
 		background-color: #ffffff;
@@ -65,6 +71,8 @@
 		height: 150%;
 		position: relative;
 		margin-left: 50px;
+		float: left;
+
 
 	}
 
@@ -77,23 +85,26 @@
 	#connect {
 
 		background-color: #ffffff;
-		width: 10%;
 		padding: 20px 10px 30px 10px; 
-		float: right;
 		color: #4aaaa5;
 		border-color: #cccccc;
 		border-width: 1px;
 		border-style: solid;
 		text-align: center;
 		font-family: Georgia;
-		margin-top: 20px;
-		position: relative;
+	
+
+	}
+
+	.sidebar {
+
+		float: left;
 
 	}
 
 	#github {
 
-	 align-content: center;
+	 
 
 	}
 
@@ -106,8 +117,8 @@
     	text-align: center;
     	padding-top: 40px;
     	padding-bottom: 40px;
-    	margin-bottom: 10px;
-    	clear: both;
-
-
+    	position: absolute;
+    	bottom: 0;
+    	width: 100%;
+    	
     }
