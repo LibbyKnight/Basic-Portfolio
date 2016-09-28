@@ -35,6 +35,13 @@
     	margin-right: 750px;
     }
 
+  a:hover {
+
+    background-color: pink;
+	
+	}
+
+
     #about {
 
 		margin-right: 30px;
@@ -133,41 +140,104 @@
 		margin-left: 250px;
 	}
 
-	.images {
-    
-   		position: absolute;
-    	float: left;
-	}
+	.game {
 
-	#gametext {
-    
-	    background-image: url("http://lorempixel.com/output/technics-q-c-200-200-4.jpg");
-   		background-repeat: no-repeat;
-   		color: #ffffff;
-		background-color: #4aaaaf;
-    	text-align: center;
-    	width: 200px;
-    	height: 200px;
-    	background-repeat: no-repeat;
-	}
-
-	.trivia {
-
-		z-index: 1;
-		margin-left: 250px;
+		position: absolute;
 		margin-top: 10px;
-	}
+		margin-left: 350px;
+	}	
 
-	.triviatext {
+	.gametext {
     
 	    background-color: #4aaaaf;
-    	position: absolute;
+    	position: relative;
     	height: 40px;
     	width: 200px;
     	color: #ffffff;
    		top: 150px;
     	text-align: center;
-    	z-index: 1;
+    	padding-top: 2px;
+    	margin-left: 350px;
+	}
+	
+
+	.trivia {
+
+		position: absolute;
+		margin-top: 5px;
+		margin left: 200px;
+	}
+
+	.triviatext {
+    
+	    background-color: #4aaaaf;
+    	position: relative;
+    	height: 40px;
+    	width: 200px;
+    	color: #ffffff;
+   		top: 100px;
+    	text-align: center;
+    	padding-top: 2px;
+	}
+
+	.hangman {
+
+		position: absolute;
+		margin-top: 50px;
+		margin-left: 350px;
+	}
+
+	.hangmantext {
+    
+	    background-color: #4aaaaf;
+    	position: relative;
+    	height: 40px;
+    	width: 200px;
+    	color: #ffffff;
+   		bottom: 5px;
+    	text-align: center;
+    	padding-top: 2px;
+    	margin-left: 80px;
+
+	}
+
+	.widget {
+
+		position: absolute;
+		margin-top: 2px;
+		margin-left: 200px;
+	}
+
+	.widgettext {
+    
+	    background-color: #4aaaaf;
+    	position: relative;
+    	margin-left: 100px;
+    	height: 40px;
+    	width: 200px;
+    	color: #ffffff;
+   		bottom: 5px;
+    	text-align: center;
+    	padding-top: 2px;
+
+	}
+
+	.rock {
+
+		position: absolute;
+		margin-top: 100px;
+		margin-left: 200px;
+	}
+
+	.rocktext {
+    
+	    background-color: #4aaaaf;
+    	position: relative;
+    	height: 40px;
+    	width: 200px;
+    	color: #ffffff;
+   		bottom: 5px;
+    	text-align: center;
     	padding-top: 2px;
 	}
 
@@ -184,4 +254,5 @@
     	border-top-color: #4aaaa5;
     	border-top-width: 10px;
     	border-top-style: solid;
+
 	}
