@@ -25,40 +25,37 @@
     	border-color: #cccccc;
 		position: relative;
 		margin-left: 150px;
-
     }
 
     .tabs {
 
     	float: right;
     	position: relative;
-    	margin-bottom: 3px;
+    	margin-bottom: 1px;
     	margin-right: 750px;
     }
 
     #about {
-		margin-right: 30px;
 
+		margin-right: 30px;
     }
 
     h2 {
+
 		color: #4aaaa5;
 		font-family: Georgia;
-
     }
 
     img {
-
     
     	padding-right: 10px;
     }
 
-
 	#image {
 	
-	float: left;
-	
+		float: left;
 	}
+
 	.aboutme {
 
 		background-color: #ffffff;
@@ -74,10 +71,7 @@
 		margin-left: 150px;
 		margin-top: 30px;
 		float: left;
-
-
 	}
-
 
 	.aboutme2 {
 
@@ -94,29 +88,24 @@
 		margin-left: 150px;
 		margin-top: 30px;
 		float: left;
-
 	}
 
     input[type=submit] {
-    padding:5px; 
-    background-color: #4aaaa5; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    color: #ffffff;
 
-}
+	    padding:5px; 
+   		background-color: #4aaaa5; 
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+    	color: #ffffff;
+	}
 
-input[type=text] {
-    color: #cccccc;
+	input[type=text] {
 
-}
-
-
+    	color: #cccccc;
+	}
 
     p {
-
-    	text-align: justify;
-
+	   	text-align: justify;
     }
 
 	#connect {
@@ -130,65 +119,63 @@ input[type=text] {
 		text-align: center;
 		font-family: Georgia;
 		margin-top: 30px;
-	
-
 	}
 
 	.sidebar {
 
 		float: left;
 		margin-left: 150px;
-
 	}
+
 	.sidebar2 {
 
 		float: left;
 		margin-left: 250px;
-
 	}
 
-	
-.images {
-    position: relative;
-}
-.game {
-    z-index: 1;
-}
+	.images {
+    
+   		position: absolute;
+    	float: left;
+	}
 
-#gametext {
-    background-color: #4aaaaf;
-    position: absolute;
-    height: 40px;
-    width: 200px;
-    color: #ffffff;
-    bottom: 10px;
-    text-align: center;
-    z-index: 1;
-}
+	#gametext {
+    
+	    background-image: url("http://lorempixel.com/output/technics-q-c-200-200-4.jpg");
+   		background-repeat: no-repeat;
+   		color: #ffffff;
+		background-color: #4aaaaf;
+    	text-align: center;
+    	width: 200px;
+    	height: 200px;
+    	background-repeat: no-repeat;
+	}
 
+	.trivia {
 
-.trivia {
-    z-index: 2;
-}
+		z-index: 1;
+		margin-left: 250px;
+		margin-top: 10px;
+	}
 
-.triviatext {
-    background-color: #4aaaaf;
-    position: absolute;
-    height: 40px;
-    width: 200px;
-    color: #ffffff;
-    bottom: 10px;
-    text-align: center;
-    z-index: 2;
-}
-
-
+	.triviatext {
+    
+	    background-color: #4aaaaf;
+    	position: absolute;
+    	height: 40px;
+    	width: 200px;
+    	color: #ffffff;
+   		top: 150px;
+    	text-align: center;
+    	z-index: 1;
+    	padding-top: 2px;
+	}
 
     footer {
 
-    	background-color: #666666;
-    	color: #ffffff;
-    	text-align: center;
+   		background-color: #666666;
+   		color: #ffffff;
+   		text-align: center;
     	padding-top: 40px;
     	padding-bottom: 40px;
     	position: absolute;
@@ -197,6 +184,4 @@ input[type=text] {
     	border-top-color: #4aaaa5;
     	border-top-width: 10px;
     	border-top-style: solid;
-
-    	
-    }
+	}
